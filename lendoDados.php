@@ -11,6 +11,5 @@ while($array = mysqli_fetch_array($matricula)){
         $array['idMatricula'] . " - " .
         "Aluno: " . $array['nome'] . " - " .
         "Curso: " . $array['curso'] . "<br>";
-        
 }
 ?>
