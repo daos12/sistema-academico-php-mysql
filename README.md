@@ -113,7 +113,7 @@ CREATE DATABASE sistemaAcademico;
 USE sistemaAcademico;
 
 CREATE TABLE matricula (
-    id INT(10) AUTO_INCREMENT PRIMARY KEY,
+    idMatricula INT(10) AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(150) NOT NULL,
     curso VARCHAR(150) NOT NULL
 );
